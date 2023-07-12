@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(24, 25, 26);
+}
+
+#name {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  position: absolute;
+  background-color: rgb(210, 198, 198);
+  width: fit-content;
+  /* height: 50px; */
+  opacity: 0;
+  text-align: justify;
+  border-radius: 10px;
+  border: 2px solid orange;
+  padding: 0px 5px;
+  
+
+}
+#image img{
+    width: 100%;
+    justify-content: center;
+}
+#mapsection {
+  width: 50%;
+  height: auto;
+  fill: #ccc;
+  stroke: #a09a9a;
+  stroke-width: 2;
+}
+
+
+path {
+  fill: #07598d;
+  cursor: pointer;
+}
+path:hover {
+  fill: orange;
+  stroke: orangered;
+  stroke-width: 3px;
+  transition: fill 0.4s;
+}
